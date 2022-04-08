@@ -1,0 +1,40 @@
+body{
+    background-color: #111111;
+}
+.root{
+    border-radius: 5%;
+}
+div{
+    margin-top: 5%;
+    margin-left: 40%;
+    background-color: wheat;
+    color: white;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 350px;
+}
+
+.Image{
+    height: 450px;
+    border-radius: 5%;
+    padding-bottom: 30px;
+}
+
+.Genre{
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+}
+
+.Desc{
+    text-align: center;
+    padding: 30px;
+    font-size: 14px;
+}
+
+.MovieName{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
