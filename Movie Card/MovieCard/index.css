@@ -1,40 +1,53 @@
-body{
-    background-color: #111111;
+body {
+    background-image: radial-gradient(circle, #000000, #260017, #3a0031, #420059, #24008c);
 }
-.root{
-    border-radius: 5%;
-}
-div{
+
+
+div {
     margin-top: 5%;
     margin-left: 40%;
     background-color: wheat;
     color: white;
-    background-color: black;
+    background-color: inherit;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     width: 350px;
-}
-
-.Image{
     height: 450px;
-    border-radius: 5%;
-    padding-bottom: 30px;
 }
 
-.Genre{
+
+
+.Image {
+    padding-bottom: 30px;
+    height: 470px;
+    width: 350px;
+    margin-left: 50px;
+    border-radius: 60px;
+}
+
+
+.Genre {
     text-align: center;
     font-style: italic;
     font-size: 12px;
+    color: #A78584;
+    padding-bottom: 20px;
+    width: 450px;
 }
 
-.Desc{
+.Desc {
     text-align: center;
-    padding: 30px;
     font-size: 14px;
+    color: #A78584;
+    font-family: Poppins;
+    font-weight: 400;
+    width: 450px;
 }
 
-.MovieName{
+.MovieName {
     text-align: center;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
     padding-bottom: 15px;
+    font-family: 'Inter', sans-serif;
+    width: 450px;
 }

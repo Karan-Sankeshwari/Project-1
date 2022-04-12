@@ -1,0 +1,21 @@
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main-div {
+    width: 400px;
+    background-color: lightblue;
+    padding: 20px;
+    border-radius: 6px 6px 3px 3px;
+    border-left: 3px solid blueviolet;
+}
+
+p {
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

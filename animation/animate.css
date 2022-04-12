@@ -1,0 +1,23 @@
+body {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+
+.square {
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+    transition: 0.2s ease-in;
+}
+
+.square:hover {
+    background-color: orange;
+    transform: scale(1.1);
+    transform: rotate(90deg);
+}
+
+.square:active {
+    background-color: green;
+    transform: scale(0.9);
+}
